@@ -1,8 +1,8 @@
-a {
+.navA a {
     text-decoration: none !important;
     color: black !important;
 } 
-a:hover{
+.navA a:hover{
     text-decoration: underline !important;
     color: black !important;
 }
@@ -66,4 +66,29 @@ a:hover{
 }
 .banner-text a:hover{
     border:3px solid grey !important;
+}
+
+.flex-item{
+    /* width: 18%; */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    display: block;
+    font-size: 1.2rem;
+    padding: 2.5rem;
+    background-color: #f9c909;
+    color: black;
+    text-decoration: none;
+}
+.flex-item a:hover{
+    text-decoration: none !important;
+}
+.flex-item span{
+    font-size: 4rem;
+}
+.flex-block{
+    background-color: #f3f3f3;
+}
+.flex-item:hover{
+    background-color:  #363636;
+    color: #fff;
 }
